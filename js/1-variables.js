@@ -41,4 +41,5 @@ dolar = parseInt(prompt('Ingrese el valor del dolar'));
 // ventana prompt es para ingresar numeros el valor que ingresamos es como texto
 // parseint
 console.log(dolar)
+
 document.write('<p>Play5: $' + (500 * dolar) + ' sin impuestos</p>');
