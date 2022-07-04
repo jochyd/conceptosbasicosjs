@@ -23,15 +23,20 @@ console.log(numero2);
 
 // if anidados o condicionales multiples
 
+// if (numero1 > numero2) {
+//   document.write("El primer numero es mayor, numero ingresado " + numero1);
+// } else if (numero2 > numero1) {
+//   document.write("El segundo numero es mayor, numero ingresado " + numero2);
+// } else {
+//   document.write(
+//     "Los numeros ingresados son iguales, numero ingresado " + numero2
+//   );
+// }
 if (numero1 > numero2) {
-  document.write("El primer numero es mayor, numero ingresado " + numero1);
-} else {
-  if (numero2 > numero1) {
-    document.write("El segundo numero es mayor, numero ingresado " + numero2);
+    document.write("El primer numero es mayor, numero ingresado " + numero1);
+  } else if (numero2 === numero1) {document.write(
+    "Los numeros ingresados son iguales, numero ingresado " + numero2
+  );
   } else {
-    document.write(
-      "Los numeros ingresados son iguales, numero ingresado " + numero2
-    );
+    document.write("El segundo numero es mayor, numero ingresado " + numero2);
   }
-}
-
