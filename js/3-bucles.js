@@ -16,3 +16,8 @@ while (cantidadMates >=1){
     document.write('<br> Mate cebado N: ' + cantidadMates);
     cantidadMates = cantidadMates -1; //cantidadmates-- todo es lo mismo que eso
 }
+
+// segundo bucle do while
+
+
+
