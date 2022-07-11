@@ -50,6 +50,7 @@ while (condicion logica) (true o false booleana){
 
 */
 
-for(let mates = 20 ; mates >= 1 ; mates--){
-    document.write('<br> Mate cebado N: ' + mates);
-}
+// for(let mates = 20 ; mates >= 1 ; mates--){
+//     document.write('<br> Mate cebado N: ' + mates);
+// }
+
